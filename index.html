@@ -2,18 +2,190 @@
 <html>
 
 <head>
-    <titel>Home</titel>
+    <style>
+        .row-one {
+            height: 10vh;
+            width: 5000vw;
+            background-color: brown
+        }
+
+        .row-two {
+            height: 10vh;
+            width: 100vw;
+            background-color: #86469C;
+            text-align: center;
+        }
+
+        .row-three {
+            height: 60vh;
+            width: 100vw;
+            background-color: #BC7FCD;
+            margin-left: 10px;
+            padding-left: 10px;
+        }
+
+        .row-four {
+            height: 60vh;
+            width: 100vw;
+            background-color: #FB9AD1;
+        }
+
+        .row-five {
+            height: 60vh;
+            width: 100vw;
+            background-color: #BC7FCD;
+            ;
+        }
+
+        .row-six {
+            height: 60vh;
+            width: 100vw;
+            background-color: #FB9AD1;
+            color: black;
+            font-size: 22px;
+            text-align: center;
+        }
+
+        #section-four {
+            height: 10vh;
+            width: 5000vw;
+            background-color: #86469C;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .img {
+            border-radius: 50%;
+            float: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 20px;
+        }
+
+
+        .text {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex end;
+            align-items: flex-end;
+            margin-top: 200px;
+            color: black;
+            font-size: 22px;
+            text-align: center;
+        }
+
+        .heading {
+            text-align: left;
+            margin-left: 100px;
+            margin-top: 60 px;
+            font-size: large;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: row;
+            height: 60vh;
+            width: 100vw;
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+
+        .first-box {
+            /* background-color: aqua; */
+            width: 40%;
+        }
+
+        .sec-box {
+            /* background-color: gold; */
+            width: 60%;
+            text-align: left;
+        }
+    </style>
 </head>
 
-<body>
-    <h1>My projects
-        <hr>
-        <hr>
-        <br>
-        <br>
-        <a href="./my second web page.html">TOP INSPIRING
-            PERSONALITIES</a>
-    </h1>
+<body style="margin:0">
+    <table>
+        <tr class="row-two">
+            <td class="row-tow"><a href="#section-one">about</a></td>
+            <td class="row-tow"><a href="#section-two">projects</a></td>
+            <td class="row-tow"><a href="#section-three">education</a></td>
+            <td class="row-tow"><a href="#section-four">links</a></td>
+        </tr>
+
+        <tr id="section-one">
+
+            <td class="row-three" colspan="4" style="margin-left: 20px;">
+                <div class="flex">
+                    <div class="first-box">
+                        <div><img class="img" src="img folder/ImportedPhoto_1713422593896.jpg" width="200px"
+                                heighr="200px">
+                        </div>
+                        <div class="text">
+                            <h3>MY SELF KAJAL BHOYAR</h3>
+                        </div>
+                    </div>
+                    <div class="sec-box">
+                        <div class="heading">
+                            <h1>INTRODUCTION</h1>
+                            <hr>
+                            <p>My name's is Kajal M. Bhoyar.<br>
+                                I Live at Isapur (BK),TA-Katol, DIS-Nagpur, STATE-Maharashtra<br>
+                                I am 18 years old.<br>
+                                My hoby is Dancing.<br> And,<br> i am the best Dancer to myself.
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr id="section-two">
+            <td class="row-four" colspan="4">
+                <div class="heading2">
+                    <h1>MY PROJECT'S</h1>
+                    <hr>
+                    <div>
+                        <ul>
+                            <li><a href="index.html">My first project</a><br></li>
+                            <li><a href="time table.html"> My second project</a><br></li>
+                            <li><a href="practicethree.html">My third project</a><br></li>
+                            <li><a href="indexindianflag.html">My fourth project</a><br></li>
+                            <li><a href="flextwo.html">My fifth project</a><br></li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </td>
+        </tr>
+        <tr id="section-three">
+            <td class="row-five" colspan="4">
+                <div class="education">
+                    <h1>My Education</h1>
+                    <hr>
+                    <p>
+                    <h4>
+                        I complate my HSC bord Education from Nbira Mahavidyalya Katol.<br>
+                        FROM 11th and 12th i study in commers field.<br>
+                        Today I learn fullstack Devloper Course FROM ENJOY PROGRAMING.<br>
+                        My aim is to bacome a fullstack devloper.<br>
+                        I am trying to make my future is bright.<br>
+                    </h4>
+                    </p>
+                </div>
+            </td>
+        </tr>
+        <tr id="section-four">
+            <td class="navigation">SKYPE ID: live: .cid.ca291f371a2390c3</td>
+            <td class="navigation">EMAIL: kajalbhoyar181@gmail.com</td>
+            <td class="navigation">GITHUB LINK: https://github.com/kajalbhoyar02</td>
+            <td class="navigation">STACK OVERFLOW</td>
+        </tr>
+    </table>
 </body>
 
 </html>
