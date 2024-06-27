@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .main {
+            margin-top: 20px;
+            margin-left: 380px;
+        }
+
+        .heading {
+            text-align: center;
+            font-size: large;
+            font-style: italic;
+            color: slateblue;
+        }
+
+        .table {
+            height: 10vh;
+            width: 10vw;
+            background-color: white;
+            text-align: center;
+          border-color: black;
+          border-style: solid;
+        }
+
+        #w {
+            padding: 0 10px;
+            border-style: solid;
+        }
+        #e{
+            border-style: solid;  
+        }
+    </style>
+</head>
+
+<body>
+    <!-- heading -->
+    <h2 class="heading">STUDENT REGISTRATION FORM</h2>
+    <!-- start form -->
+    <form>
+        <div class="main">
+            <legend>
+                <fieldset style="background-color:slateblue; border-style:solid; height: 30%; width: 50vw;">
+                    <!-- NAME -->
+                    <lable>FIRST NAME :</lable>
+                    <input type="text">
+                    <br>
+                    <br>
+                    <!-- LAST NAME -->
+                    <lable>LAST NAME :</lable>
+                    <input type="text">
+                    <br>
+                    <br>
+                    <!-- DOB -->
+                    <lable>DOB :</lable>
+                    <input type="date">
+                    <br>
+                    <br>
+                    <!-- EMAIL -->
+                    <lable>EMAIL ID :</lable>
+                    <input type="email">
+                    <br>
+                    <br>
+                    <!-- MOBILE NO -->
+                    <lable>MOBILE NO :</lable>
+                    <input type="number">
+                    <br>
+                    <br>
+                    <!-- GeNDER -->
+                    <lable>GENDER :</lable>
+                    male
+                    <input type="radio" name="gender" value="male">
+                    female
+                    <input type="radio" name="gender" value="female">
+                    <br>
+                    <br>
+                    <!-- ADDRESS -->
+                    <lable>ADDRESS :</lable><textarea type="text"></textarea>
+                    <br>
+                    <br>
+                    <!-- CITY -->
+                    <lable>CITY :</lable>
+                    <input type="text">
+                    <br>
+                    <br>
+                    <!--PINCODE -->
+                    <lable>PIN CODE :</lable>
+                    <input>
+                    <br>
+                    <br>
+                    <!-- STATE -->
+                    <lable>STATE :</lable>
+                    <input>
+                    <br><br>
+                    <!-- COUNTRY -->
+                    <lable>COUNTRY :</lable>
+                    <input>
+                    <br>
+                    <br>
+                    <!-- HOBBIES -->
+                    <lable>HOBBIES :</lable>
+                    drawing
+                    <input type="radio" name="hobbies" value="Drawing">
+                    singing
+                    <input type="radio" name="hobbies" value="Singing">
+                    dancing
+                    <input type="radio" name="hobbies" value="Dancing">
+                    sketching
+                    <input type="radio" name="hobbies" value="sketching">
+                    others
+                    <input type="radio" name="hobbies" value="Others">
+                    <input>
+                    <br>
+                    <br>
+                    <!-- QUALIFICATION -->
+                    <lable>QUALIFICATION :</lable>
+                    <table class="table">
+                        <tr>
+                            <th>Sr no</th><br>
+                            <th>Examination</th>
+                            <th>Board</th>
+                            <th>percentage</th>
+                            <th>Year of percentage</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Class x</td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input></td>
+                            <td><input></td>
+                            <td><input></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <!--  COURSES-->
+                    <lable>COURSES <br> APPLIED FOR :</lable>
+                    BCA
+                    <input type="radio" name="COURSES" value="BCA">
+                    B.COM
+                    <input type="radio" name="COURSES" value="B.COM">
+                    BSC
+                    <input type="radio" name="COURSES" value="BSC">
+                    BBA
+                    <input type="radio" name="COURSES" value="BBA">
+                    BA
+                    <input type="radio" name="COURSES" value="BA">
+                    <br>
+                    <br>
+                    <!-- submit reset -->
+                    <input type="Submit" id="w">
+                    <input type="Reset" id="e">
+                </fieldset>
+            </legend>
+    </form>
+</body>
+
+</html>
