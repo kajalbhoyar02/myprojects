@@ -1,58 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head></head>
+<head>
 
-<body>
-    <form>
-        <fieldset>
-            <!-- name -->
-            <legend>personal details</legend>
-            <label> FIRST NAME : </label>
-            <input type="text">
-            <br>
-            <!-- number -->
+    <title>EP programing</title>
+    <style>
+        .main{
+            background-image: url(./images/photo.jpg);
+            background-repeat: no-repeat;
+            background-size: cover
+        }
+        .path{
+            margin-top: 100px;
+            margin-left:500px;
+            width: 400px;
+            height: 300px;
+        }
+        .index{
+            text-align: center;
+            color: rgb(15, 205, 110);
+            font-size: xx-large;
+            
+        }
+        .color{
+            background-color: rgba(255, 255, 255, 0);
+            height:500px ;
+            width: 50px;
+        }
 
-            <lable>contact no : </lable>
-            <input type="tel">
-            <br>
-            <!-- DOB -->
+    </style>
+</head>
 
-            <label>DOB :</label>
-            <input type="date">
-            <br>
-            <!-- time -->
-
-            <label>BATCH TIMING:</label>
+<body class="main">
+    
+    <legend class="index"> Enjoy programming : Enter your Deteils </legend>
+        <form class="path">
+            <!-- labeling -->
+            <label> perferred Batch timming</label>
+            <input type="time">to
             <input type="time">
             <br>
-            <!-- email -->
-
-            <label>EMAIL:</label>
+            <br>
+            <!-- Date -->
+            <label> perferred Batch Date</label>
+            <input type="date">
+            <br>
+            <br>
+            <!-- DOB -->
+            <label>Date of barth</label>
+            <input type="date">
+            <br>
+            <br>
+            <!-- Email  -->
+            <label>Email. </label>
             <input type="email">
             <br>
-            <!-- password -->
-
-            <lable>PASSWORD:</lable>
-            <input type="password">
             <br>
-            <BR>
-            <!-- batch -->
-
-            <LABEL>SELECT YOUR BATCH</LABEL>
-            <BR>
-
-            <select>
-                <option>MORNING</option>
-                <option>AFTERNOON</option>
-                <option>EVENING</option>
-            </select>
+            <!-- contact no  -->
+            <label>contact no </label>
+            <input type="number">
             <br>
             <br>
-            <!-- submit -->
-            <input type="submit">
-        </fieldset>
-    </form>
+            <!-- Copmmuncition skill -->
+            <label>Copmmuncition skill</label>
+            <input type="range">
+            <br>
+            <br>
+            <!-- age -->
+            <label>age </label>
+            <input type="">
+            <br>
+            <br>
+            <!-- Tell sommething about your self -->
+            <label>Tell sommething about your self </label>
+            <input type="text">
+
+
+
+
+
+
+
+        </form>
+   
+    
 </body>
+
 
 </html>
